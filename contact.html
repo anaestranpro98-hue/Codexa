@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contato — CODEXA</title>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="site-title" id="site-title"><span class="keyword">const</span> <span class="variable">codexa</span> <span class="operator">=</span> <span class="string">usuario</span><span class="semi">;</span></div>
+    <div class="logo"><span class="keyword">const</span> <span class="variable">codexa</span> <span class="operator">=</span> <span class="string">usuario</span>;</div>
+    <nav class="tabs" aria-label="Arquivos"><button class="tab">index.java</button><button class="tab">skills.json</button><button class="tab">contact.api</button></nav>
+    <ul class="links"><li><a href="index.html">Início</a></li><li><a href="services.html">Serviços</a></li><li><a href="tech.html">Tecnologias</a></li><li><a href="contact.html">Contato</a></li></ul>
+  </header>
+  <main>
+    <section class="contact page">
+      <h1>Solicitar Orçamento</h1>
+      <form id="quote-form">
+        <label>Nome<input type="text" name="name" required placeholder="Seu nome"></label>
+        <label>E-mail<input type="email" name="email" required placeholder="ana@codexa.dev"></label>
+        <label>Telefone/WhatsApp<input type="tel" name="phone" placeholder="(51) 99999-9999"></label>
+        <label>Tipo de Projeto
+          <select name="type">
+            <option>Site</option>
+            <option>App</option>
+            <option>API/Sistema</option>
+            <option>Automação</option>
+          </select>
+        </label>
+        <label>Mensagem<textarea name="message" rows="6" placeholder="Descreva seu projeto..."></textarea></label>
+        <div class="form-cta">
+          <button type="submit" class="btn primary">Enviar via WhatsApp</button>
+          <button type="button" id="mailto-btn" class="btn ghost">Enviar por E-mail</button>
+        </div>
+      </form>
+    </section>
+  </main>
+  <footer class="footer">
+    <div>© <strong>usuario</strong> — CODEXA</div>
+    <div class="status">Status: <span class="ok">200 OK</span></div>
+    <div class="socials"><a href="https://www.linkedin.com/in/ana-estran-994853365" target="_blank">LinkedIn</a><a id="whatsapp-link" href="#" target="_blank">WhatsApp</a></div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
